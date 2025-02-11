@@ -42,45 +42,6 @@ Explanation: nums[1] and nums[2] are both odd, so the answer is false.
 - If both are **even** or **odd**, return **false**.  
 - If no such case is found, return **true**.  
 
-### **🔹 Code Implementation (Python)**  
-```python
-def isSpecialArray(nums):
-    for i in range(len(nums) - 1):
-        if (nums[i] % 2) == (nums[i + 1] % 2):  # Both even or both odd
-            return False
-    return True
-
-# Example Runs
-print(isSpecialArray([1]))         # True
-print(isSpecialArray([2, 1, 4]))   # True
-print(isSpecialArray([4, 3, 1, 6]))  # False
-```
-
-### **🔹 Code Implementation (C++)**  
-```cpp
-#include <vector>
-using namespace std;
-
-bool isSpecialArray(vector<int>& nums) {
-    for (int i = 0; i < nums.size() - 1; i++) {
-        if ((nums[i] % 2) == (nums[i + 1] % 2)) // Both even or both odd
-            return false;
-    }
-    return true;
-}
-
-// Example Usage
-#include <iostream>
-int main() {
-    vector<int> nums1 = {1};
-    vector<int> nums2 = {2, 1, 4};
-    vector<int> nums3 = {4, 3, 1, 6};
-
-    cout << isSpecialArray(nums1) << endl; // 1 (true)
-    cout << isSpecialArray(nums2) << endl; // 1 (true)
-    cout << isSpecialArray(nums3) << endl; // 0 (false)
-}
-```
 
 ### **🔹 Code Implementation (Java)**  
 ```java
@@ -106,25 +67,6 @@ class Solution {
 ### **🔹 Time & Space Complexity**  
 - **Time Complexity:** `O(N)`, where `N` is the size of `nums`. We check all adjacent pairs once.  
 - **Space Complexity:** `O(1)`, as no extra space is used.  
-
----
-
-## **🔹 Alternative Approach**  
-If the array length is **only 1**, return **true** directly.  
-
-```python
-def isSpecialArray(nums):
-    return all((nums[i] % 2) != (nums[i + 1] % 2) for i in range(len(nums) - 1))
-```
-This solution uses **Python’s `all()` function** for a more **compact** implementation.
-
----
-
-## **🔹 Summary**  
-- ✅ **Checked adjacent elements** for different parity.  
-- ✅ **Implemented in Python, C++, and Java** with optimal `O(N)` time.  
-- ✅ **Alternative approach** using `all()` in Python.  
-
 ---
 
 ### **🌟 Keep Solving & Stay Consistent! 🚀**
