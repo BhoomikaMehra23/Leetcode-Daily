@@ -15,3 +15,32 @@ Welcome to **LeetCode Daily Questions**! This repository is designed to help you
 ---
 
 ## 📂 Repository Structure  
+/LeetCode-Daily/ ├── README.md ├── 2025/ │ ├── February/ │ │ ├── 11.md # Solution for Feb 11 │ │ ├── 12.md # Solution for Feb 12 │ │ ├── ... │ ├── March/ │ │ ├── 01.md │ │ ├── 02.md │ │ ├── ...
+Each file contains:  
+✅ **Problem Statement**  
+✅ **Code Solution (C++ | Python | Java)**  
+✅ **Time & Space Complexity Analysis**  
+✅ **Alternative Approaches**  
+
+---
+
+## 🔹 How to Use This Repository?  
+1️⃣ **Pick the latest daily problem** and try solving it on your own.  
+2️⃣ **Check out the solution** if you're stuck and analyze the approach.  
+3️⃣ **Understand the complexity** and try optimizing further.  
+4️⃣ **Join discussions** and share alternative solutions.  
+
+---
+
+## 🤝 Contributing  
+Want to contribute? Here's how:  
+- 📝 **Submit your own solutions** in C++/Python/Java.  
+- 💡 **Share different approaches** and optimizations.  
+- 🔥 **Improve existing explanations** for better clarity.  
+
+---
+
+## ⭐ Let's Stay Consistent & Crack DSA Together! 🚀  
+🔹 If you find this repo useful, **star** ⭐ it and **share** it with others!  
+🔹 Stay consistent, and happy coding! 💻🔥  
+
