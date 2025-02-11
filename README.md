@@ -13,15 +13,10 @@ Welcome to **LeetCode Daily Questions**! This repository is designed to help you
 - 💬 **Community-Driven Discussions:** Learn from different perspectives.  
 
 ---
-
-## 📂 Repository Structure  
-/LeetCode-Daily/ ├── README.md ├── 2025/ │ ├── February/ │ │ ├── 11.md # Solution for Feb 11 │ │ ├── 12.md # Solution for Feb 12 │ │ ├── ... │ ├── March/ │ │ ├── 01.md │ │ ├── 02.md │ │ ├── ...
 Each file contains:  
 ✅ **Problem Statement**  
-✅ **Code Solution (C++ | Python | Java)**  
+✅ **Code Solution (Java)**  
 ✅ **Time & Space Complexity Analysis**  
-✅ **Alternative Approaches**  
-
 ---
 
 ## 🔹 How to Use This Repository?  
